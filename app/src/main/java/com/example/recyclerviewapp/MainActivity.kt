@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             //rvMessages.adapter?.notifyDataSetChanged()
             rvMessages.adapter = MessageAdapter(this, messages)
         }else{
-            Snackbar.make(clRoot, "Please enter some text", Snackbar.LENGTH_LONG).show()
+            Snackbar.make(clRoot, "Please enter some text3", Snackbar.LENGTH_LONG).show()
         }
 
     }
